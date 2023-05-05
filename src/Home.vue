@@ -8,7 +8,7 @@
 import { ref } from "vue";
 export default {
   setup() {
-    const name = ref("公众号码不停息");
+    const name = ref("love QYX");
 
     return {
       name,
