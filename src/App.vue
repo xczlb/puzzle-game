@@ -7,7 +7,7 @@
     <h2>
       {{ gamedata.difficulty }}
 
-      <p class="tip">数字越大难度越大哦</p>
+      <p class="tip">数字越大难度越大，请量力而行</p>
     </h2>
     <div class="difftodo">
       <div class="to" @click="changeDiff('add')">难度+</div>
@@ -48,7 +48,7 @@ export default {
     const game = ref();
     const state = reactive({
       gamedata: {
-        level: 3,
+        level: 5,
         mode: "number", // 如果是 number 后期会自动生成, 如果是 img 需要传对应的图片
         imgs: [img1, img2, img3, img4, img5, img6, img7, img8],
         style: {
@@ -57,7 +57,7 @@ export default {
           sliderFontSize: "18px",
           gameBoxBg: "#5a009b",
         },
-        difficulty: 4, // 难度分为 1 到正无穷 推荐设置[10-100]
+        difficulty: 5, // 难度分为 1 到正无穷 推荐设置[10-100]
       },
     });
     const start = () => {
@@ -77,7 +77,7 @@ export default {
     };
     const endCallback = () => {
       // 通关了
-      alert("欧耶!我通关了");
+      alert("恭喜！通关成功！欢迎访问主页：qyx.one");
       console.log("我通关了");
     };
     return {
