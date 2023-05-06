@@ -50,7 +50,7 @@ export default {
       gamedata: {
         level: 5,
         mode: "number", // 如果是 number 后期会自动生成, 如果是 img 需要传对应的图片
-        imgs: [img1, img2, img3, img4, img5, img6, img7, img8],
+        imgs: [img1, img2, img3, img4, img5, img6, img7, img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20,img21,img22,img23,img24],
         style: {
           sliderBg: "#ffc107",
           sliderColor: "#000",
